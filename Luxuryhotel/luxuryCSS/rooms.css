@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    /* NAVBAR  */
+.container {
+     width: 1520px;
+     height: 980px;
+     margin: auto;
+     background-color: #E5E5E5;;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(/luxuryIMG/rooms/glavniga/bedroom-5664221_1920.jpg);
+     background-repeat: no-repeat;
+}
+.nav {
+    width: 1723px;
+    height: 150px;
+}
+.logo {
+  width: 256px;
+  height: 150px;
+  background-color: #E0B973;
+  text-align: center;
+  display: inline-block;
+  margin-left: 213px;
+  border-bottom-right-radius: 23%;
+  border-bottom-left-radius: 23%;
+ }
+.logo_tex {
+   width: 186px;
+   height: 48px;
+   padding: 44px 29px 51px 40px;
+   text-align: center;
+   font-size: 44px;
+   letter-spacing: 1px;
+   max-width: 187px;
+   color:#14274A;
+
+}
+.logo_tex_small {
+  padding: 10px;
+  letter-spacing: 4px;
+  font-family:  'Adobe Garamond Pro';
+  text-transform: uppercase;
+  color:#14274A;
+}
+.navigation {
+  float: right;
+  margin-right: 184px;
+}
+.navbar {
+  list-style: none;
+  align-items: center;
+}
+.navbar li{
+display: inline-block;
+padding: 30px 40px;
+text-indent: 5px;
+}
+.navbar li a {
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  font-family:  sans-serif;
+  font-size: 20px;
+  padding: 15px;
+}
+.navbar li a:hover {
+ color: yellow;
+}
+.active:active {
+  border-bottom: 1px solid yellow;
+  margin-top: 4px;
+}
+/* NAVBAR  */
+
+/* Main section  */
+.main_section_up {
+  width: 670px;
+  height: 328px;
+  padding-top: 220px;
+  margin-left: 213px;
+  color: #ffffff;
+}
+.welcome {
+width: 400px;
+ height: 28px;
+font-size: 50px;
+font-family: sans-serif;
+}
+.section_text_big {
+ font-weight: 700;
+ height: 185px;
+ font-size: 154px;
+ letter-spacing: 10px;
+}
+.section_text_mini{
+  height: 70px;
+  margin: -44px -10px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+  letter-spacing: 22px;
+}
+.section_text{
+font-family: sans-serif;
+margin: 44px -10px;
+font-weight: 400;
+font-size: 25px;
+letter-spacing: 2px;
+}
+.book_now {
+   width: 268px;
+   height: 78px;
+   margin: 270px 670px;
+   margin-bottom: 170px;
+   color: #ffffff;
+   background-color: #E0B973;
+   border-radius: 21px;
+   font-family: sans-serif;
+   cursor: pointer;
+}
+.book_now a{
+text-decoration: none;
+color: #ffffff;
+}
+.book_now i {
+   width: 28px;
+  height: 25px;
+  margin: 30px;
+  padding-left: 26px;
+  position: absolute;
+}
+.book {
+  width: 200px;
+  height: 29px;
+  margin: 90px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+.scroll{
+  width: 79px;
+  height: 106px;
+  margin: 90px;
+  cursor: pointer;
+}
+.scroll_text {
+   font-weight: 700;
+   font-size: 25px;
+   height: 30px;
+   margin: 10px;
+   cursor: pointer;
+}
+.scroll i {
+  font-size: 40px;
+  margin: 20px;
+  margin:  auto;
+  cursor: pointer;
+  color: #ffffff;
+}
+     /* Bar Section  */
+.bar_container{
+width: 1300px;
+height: 200px;
+margin: 190px 130px;
+text-align: center;
+}
+.bar_text{
+  margin: 20px;
+font-size: 40px;
+font-weight: 700;
+line-height: 72px;
+color: #14274A;
+letter-spacing: 2px;
+font-family: Garamond;
+}
+.bar_mini_text{
+ width: 800px;
+ height: 60px;
+ font-size: 15px;
+ margin: 20px 230px;
+ font-family: 'Roboto';
+ color: #14274A;
+}
+   /* BAR IMG  */
+.bar_img{
+    width: 1200px;
+    height: 944px;
+    margin: -180px 150px;
+}
+.bar_img1{
+   width: 1200px;
+    height: 700px;
+    border: 1px solid #14274A;
+    background-color: yellowgreen;
+    background-image: url(/luxuryIMG/rooms/bed-gdf6f65554_1280.jpg);
+}
+.bar_img2{
+    width: 1200px;
+    height: 700px;
+    border: 1px solid #14274A;
+    background-color: yellowgreen;
+    background-image: url(/luxuryIMG/rooms/bedroom-g85bfab03e_1280.jpg);
+}
+.bar_img3{
+  width: 1200px;
+  height: 700px;
+  border: 1px solid #14274A;
+  background-color: yellowgreen;
+  background-image: url(/luxuryIMG/rooms/room-gf54f2465d_1280.jpg);
+}
+.img_text{
+  width: 1200px;
+  height: 70px;
+  margin: 489px auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: #14274A;
+  color: #ffffff;
+  position: absolute;
+}
+.img_in_text{
+    width: 1198px;
+    height: 140px;
+    margin: 560px auto;
+    border-bottom: 1px solid #14274A;
+    position: absolute;
+    color: #14274A;
+    background-color: #ffffff;
+}
+.img_in_text i {
+  margin: 70px 80px;
+  color: #E0B973;
+  font-size: 25px;
+  cursor: pointer;
+}
+.plus_text {
+margin: -90px 130px;
+font-family: sans-serif;
+font-weight: 700;
+position: absolute;
+}
+.img_cost{
+  width: 180px;
+  height: 40px;
+  padding: 10px 30px;
+  margin: -110px 950px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-weight: 700;
+  position: absolute;
+  background-color: #E0B973;
+  color: #ffffff;
+cursor: pointer;
+}
+   /* FOOTER UP TEXT  */
+.next{
+  width: 800px;
+  height: 257px;
+  margin: -205px auto;
+}
+.footer_up{
+  width: 309px;
+  height: 72px;
+  margin: 50px auto;
+  font-weight: 700;
+  color: #14274A;
+  font-size: 60px;
+}
+.footer_up_text{
+  width: 800px;
+  height: 37px;
+  font-weight: 400;
+  font-size: 30px;
+  color: #14274A;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+.footer_up_small_text{
+  font-weight: 400;
+  font-size: 20px;
+  color: #14274A;
+  text-align: center;
+  margin: 20px;
+}
+.icon_1{
+  width: 28px;
+ height: 25px;
+ font-size: 50px;
+ margin: 15px 330px;
+ position: absolute;
+ color: #E0B973;
+ cursor: pointer;
+}
+.icon_2{
+  width: 28px;
+ height: 25px;
+ font-size: 50px;
+ margin: 15px 420px;
+ color: #E0B973;
+ cursor: pointer;
+}
+
+/* FOOTER */
+.foot{
+  width: 1620px;
+  height: 320px;
+  color: #ffffff;
+  background-color: #14274A;
+  margin: 290px -20px;
+  padding: 50px;
+}
+
+.foot_nav_conatainer{
+    width: 1300px;
+    height: 230px;
+    margin: 20px auto;
+  }
+.luxury_foot{
+    width: 364px;
+    height: 111px;
+    margin: 10px 30px;
+    letter-spacing: 3px;
+}
+.luxury_foot h5{
+  font-size: 9px;
+  font-weight: 600;
+  margin: 12px;
+  letter-spacing: 3px;
+}
+.luxury_foot p {
+  width: 410px;
+  height: 60px;
+}
+.number{
+text-decoration: none;
+color: cornflowerblue;
+font-size: 18px;
+font-weight: 700;
+}
+.foter_us{
+    width: 220px;
+    height: 111px;
+    font-weight: 400;
+    font-size: 14px;
+    margin:  -131px 470px;
+    line-height: 43px;
+    cursor: pointer;
+    font-family: sans-serif;
+    }
+  .fot_social{
+    width: 145px;
+    height: 111px;
+    margin: 10px 720px;
+    padding-bottom: 30px;
+  }
+  .fot_social_icon i{
+    font-size: 19px;
+    font-weight: 400;
+    display: flex;
+    margin: 25px 0;
+    cursor: pointer;
+  }
+  .fot_social_text{
+    margin: -131px 30px;
+  }
+  .fot_social_icon a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .fot_social_text a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .fot_social_text h4{
+    width: 100px;
+    height:  49px;
+    line-height: 1px;
+    font-family: sans-serif;
+    cursor: pointer;
+  }
+  .fot_email{
+    width: 270px;
+    height: 200px;
+    margin: -140px 980px;
+    position: relative;
+  }
+.fot_email_text{
+margin: 20px -37px;
+padding: 20px;
+
+}
+.email_container{
+    width: 320px;
+    height: 60px;
+    margin: -20px;
+    border-radius: 5px;
+    border: 3px solid #E0B973;
+}
+.emaill{
+  width: 255px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 26px;
+  background-color: #14274A;
+  color: #ffffff;
+}
+.label_ok{
+  width: 61px;
+  height: 56px;
+  padding: 18px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #E0B973;
+  color: #14274A;
+  position: absolute;
+  cursor: pointer;
+}
